@@ -9,21 +9,65 @@
 /* Begin PBXBuildFile section */
 		3050240C301589B500393D45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3050240B301589B500393D45 /* AppDelegate.swift */; };
 		3050240E301589B500393D45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3050240D301589B500393D45 /* SceneDelegate.swift */; };
-		30502410301589B500393D45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3050240F301589B500393D45 /* ViewController.swift */; };
-		30502413301589B500393D45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30502411301589B500393D45 /* Main.storyboard */; };
 		30502415301589B700393D45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30502414301589B700393D45 /* Assets.xcassets */; };
 		30502418301589B700393D45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30502416301589B700393D45 /* LaunchScreen.storyboard */; };
+		3050242030158A0B00393D45 /* MemorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3050241F30158A0B00393D45 /* MemorialViewController.swift */; };
+		3050242230158A3200393D45 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3050242130158A3200393D45 /* NotificationManager.swift */; };
+		3050242630158BFE00393D45 /* father_photo in Resources */ = {isa = PBXBuildFile; fileRef = 3050242530158BFE00393D45 /* father_photo */; };
+		3050242E3015963500393D45 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3050242D3015963500393D45 /* WidgetKit.framework */; };
+		305024303015963500393D45 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3050242F3015963500393D45 /* SwiftUI.framework */; };
+		305024333015963500393D45 /* MemorialWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305024323015963500393D45 /* MemorialWidgetBundle.swift */; };
+		305024353015963500393D45 /* MemorialWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305024343015963500393D45 /* MemorialWidget.swift */; };
+		305024373015963700393D45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305024363015963700393D45 /* Assets.xcassets */; };
+		3050243B3015963700393D45 /* MemorialWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3050242B3015963500393D45 /* MemorialWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		305024413016395900393D45 /* father_photo in Resources */ = {isa = PBXBuildFile; fileRef = 3050242530158BFE00393D45 /* father_photo */; };
+		305024443016476800393D45 /* RosaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305024433016476800393D45 /* RosaryViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		305024393015963700393D45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30502400301589B500393D45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3050242A3015963500393D45;
+			remoteInfo = MemorialWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3050243F3015963700393D45 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3050243B3015963700393D45 /* MemorialWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		30502408301589B500393D45 /* Jamil Alwahsh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jamil Alwahsh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3050240B301589B500393D45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3050240D301589B500393D45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3050240F301589B500393D45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		30502412301589B500393D45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30502414301589B700393D45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30502417301589B700393D45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30502419301589B700393D45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3050241F30158A0B00393D45 /* MemorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorialViewController.swift; sourceTree = "<group>"; };
+		3050242130158A3200393D45 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		3050242530158BFE00393D45 /* father_photo */ = {isa = PBXFileReference; lastKnownFileType = file; path = father_photo; sourceTree = "<group>"; };
+		3050242B3015963500393D45 /* MemorialWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MemorialWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3050242D3015963500393D45 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		3050242F3015963500393D45 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		305024323015963500393D45 /* MemorialWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorialWidgetBundle.swift; sourceTree = "<group>"; };
+		305024343015963500393D45 /* MemorialWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorialWidget.swift; sourceTree = "<group>"; };
+		305024363015963700393D45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		305024383015963700393D45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30502440301596AC00393D45 /* Jamil Alwahsh.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Jamil Alwahsh.entitlements"; sourceTree = "<group>"; };
+		3050244230163F7900393D45 /* MemorialWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MemorialWidgetExtension.entitlements; sourceTree = "<group>"; };
+		305024433016476800393D45 /* RosaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,13 +78,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		305024283015963500393D45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305024303015963500393D45 /* SwiftUI.framework in Frameworks */,
+				3050242E3015963500393D45 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		305023FF301589B500393D45 = {
 			isa = PBXGroup;
 			children = (
+				3050244230163F7900393D45 /* MemorialWidgetExtension.entitlements */,
 				3050240A301589B500393D45 /* Jamil Alwahsh */,
+				305024313015963500393D45 /* MemorialWidget */,
+				3050242C3015963500393D45 /* Frameworks */,
 				30502409301589B500393D45 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				30502408301589B500393D45 /* Jamil Alwahsh.app */,
+				3050242B3015963500393D45 /* MemorialWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +113,38 @@
 		3050240A301589B500393D45 /* Jamil Alwahsh */ = {
 			isa = PBXGroup;
 			children = (
+				30502440301596AC00393D45 /* Jamil Alwahsh.entitlements */,
 				3050240B301589B500393D45 /* AppDelegate.swift */,
 				3050240D301589B500393D45 /* SceneDelegate.swift */,
-				3050240F301589B500393D45 /* ViewController.swift */,
-				30502411301589B500393D45 /* Main.storyboard */,
+				3050241F30158A0B00393D45 /* MemorialViewController.swift */,
+				3050242130158A3200393D45 /* NotificationManager.swift */,
+				305024433016476800393D45 /* RosaryViewController.swift */,
 				30502414301589B700393D45 /* Assets.xcassets */,
 				30502416301589B700393D45 /* LaunchScreen.storyboard */,
 				30502419301589B700393D45 /* Info.plist */,
 			);
 			path = "Jamil Alwahsh";
+			sourceTree = "<group>";
+		};
+		3050242C3015963500393D45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3050242D3015963500393D45 /* WidgetKit.framework */,
+				3050242F3015963500393D45 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		305024313015963500393D45 /* MemorialWidget */ = {
+			isa = PBXGroup;
+			children = (
+				305024323015963500393D45 /* MemorialWidgetBundle.swift */,
+				305024343015963500393D45 /* MemorialWidget.swift */,
+				305024363015963700393D45 /* Assets.xcassets */,
+				3050242530158BFE00393D45 /* father_photo */,
+				305024383015963700393D45 /* Info.plist */,
+			);
+			path = MemorialWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,15 +157,34 @@
 				30502404301589B500393D45 /* Sources */,
 				30502405301589B500393D45 /* Frameworks */,
 				30502406301589B500393D45 /* Resources */,
+				3050243F3015963700393D45 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3050243A3015963700393D45 /* PBXTargetDependency */,
 			);
 			name = "Jamil Alwahsh";
 			productName = "Jamil Alwahsh";
 			productReference = 30502408301589B500393D45 /* Jamil Alwahsh.app */;
 			productType = "com.apple.product-type.application";
+		};
+		3050242A3015963500393D45 /* MemorialWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3050243C3015963700393D45 /* Build configuration list for PBXNativeTarget "MemorialWidgetExtension" */;
+			buildPhases = (
+				305024273015963500393D45 /* Sources */,
+				305024283015963500393D45 /* Frameworks */,
+				305024293015963500393D45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemorialWidgetExtension;
+			productName = MemorialWidgetExtension;
+			productReference = 3050242B3015963500393D45 /* MemorialWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +197,9 @@
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					30502407301589B500393D45 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					3050242A3015963500393D45 = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
@@ -116,6 +218,7 @@
 			projectRoot = "";
 			targets = (
 				30502407301589B500393D45 /* Jamil Alwahsh */,
+				3050242A3015963500393D45 /* MemorialWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -125,9 +228,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3050242630158BFE00393D45 /* father_photo in Resources */,
 				30502418301589B700393D45 /* LaunchScreen.storyboard in Resources */,
 				30502415301589B700393D45 /* Assets.xcassets in Resources */,
-				30502413301589B500393D45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305024293015963500393D45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305024373015963700393D45 /* Assets.xcassets in Resources */,
+				305024413016395900393D45 /* father_photo in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +250,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30502410301589B500393D45 /* ViewController.swift in Sources */,
 				3050240C301589B500393D45 /* AppDelegate.swift in Sources */,
 				3050240E301589B500393D45 /* SceneDelegate.swift in Sources */,
+				305024443016476800393D45 /* RosaryViewController.swift in Sources */,
+				3050242230158A3200393D45 /* NotificationManager.swift in Sources */,
+				3050242030158A0B00393D45 /* MemorialViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305024273015963500393D45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305024333015963500393D45 /* MemorialWidgetBundle.swift in Sources */,
+				305024353015963500393D45 /* MemorialWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		30502411301589B500393D45 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				30502412301589B500393D45 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		3050243A3015963700393D45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3050242A3015963500393D45 /* MemorialWidgetExtension */;
+			targetProxy = 305024393015963700393D45 /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		30502416301589B700393D45 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,8 +411,10 @@
 		3050241D301589B700393D45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Jamil Alwahsh/Jamil Alwahsh.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3T8L6JZ6AS;
@@ -297,7 +422,6 @@
 				INFOPLIST_FILE = "Jamil Alwahsh/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -316,8 +440,10 @@
 		3050241E301589B700393D45 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Jamil Alwahsh/Jamil Alwahsh.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3T8L6JZ6AS;
@@ -325,7 +451,6 @@
 				INFOPLIST_FILE = "Jamil Alwahsh/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -335,6 +460,62 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wahsh.Jamil-Alwahsh";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3050243D3015963700393D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = MemorialWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T8L6JZ6AS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MemorialWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MemorialWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wahsh.Jamil-Alwahsh.MemorialWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3050243E3015963700393D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = MemorialWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T8L6JZ6AS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MemorialWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MemorialWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wahsh.Jamil-Alwahsh.MemorialWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -358,6 +539,15 @@
 			buildConfigurations = (
 				3050241D301589B700393D45 /* Debug */,
 				3050241E301589B700393D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3050243C3015963700393D45 /* Build configuration list for PBXNativeTarget "MemorialWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3050243D3015963700393D45 /* Debug */,
+				3050243E3015963700393D45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
