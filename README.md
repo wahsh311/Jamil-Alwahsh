@@ -25,7 +25,6 @@ I built this project to implement a 100% programmatic UI (no storyboards) and ha
    ```bash
 https://github.com/wahsh311/Jamil-Alwahsh
 
-## Screenshots 
 
 ## Screenshots
 
