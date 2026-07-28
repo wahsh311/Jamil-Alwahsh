@@ -27,6 +27,8 @@ https://github.com/wahsh311/Jamil-Alwahsh
 
 ## Screenshots 
 
-<img width="1179" height="2556" alt="Simulator Screenshot - iPhone 15 Pro - 2026-07-27 at 20 11 56" src="https://github.com/user-attachments/assets/272dd578-8d91-4741-8453-b3cb65c30a78" />
-<img width="1179" height="2556" alt="Simulator Screenshot - iPhone 15 Pro - 2026-07-27 at 20 11 48" src="https://github.com/user-attachments/assets/cd3684ba-a364-4e18-98ab-12d9d1dbeffb" />
-<img width="1179" height="2556" alt="Simulator Screenshot - iPhone 15 Pro - 2026-07-27 at 20 11 37" src="https://github.com/user-attachments/assets/1e8d3af0-3ebc-415e-94f5-ce98a99b90bb" />
+## Screenshots
+
+| Main Screen | Digital Rosary | Add Duaa |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/272dd578-8d91-4741-8453-b3cb65c30a78" width="250"> | <img src="https://github.com/user-attachments/assets/cd3684ba-a364-4e18-98ab-12d9d1dbeffb" width="250"> | <img src="https://github.com/user-attachments/assets/1e8d3af0-3ebc-415e-94f5-ce98a99b90bb" width="250"> |
