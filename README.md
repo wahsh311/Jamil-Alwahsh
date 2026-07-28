@@ -1,4 +1,4 @@
-<img width="1179" height="2556" alt="Simulator Screenshot - iPhone 15 Pro - 2026-07-27 at 20 11 37" src="https://github.com/user-attachments/assets/e5369f9a-0364-490a-ae43-4b1ef0538820" /># Memorial App
+
 
 A personal iOS application dedicated to the memory of my late father. It serves as a daily companion for prayers (Duaa) and tracks the time passed since his departure. 
 
