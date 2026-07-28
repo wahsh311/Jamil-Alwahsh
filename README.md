@@ -1,4 +1,4 @@
-
+# Memorial App
 
 A personal iOS application dedicated to the memory of my late father. It serves as a daily companion for prayers (Duaa) and tracks the time passed since his departure. 
 
@@ -7,10 +7,10 @@ I built this project to implement a 100% programmatic UI (no storyboards) and ha
 ## Features
 
 - **Days Counter:** Calculates days passed using Swift's `Calendar` and `DateComponents`.
-- **Duaa Display & Customization: Cycles through a list of prayers. Users can add new prayers which are saved locally.
-- **Digital Rosary (Misbaha)
-- **Local Notifications: Uses UserNotificationCenter to schedule background reminders.
-- **App Groups Integration: the current Duaa and days passed is shared to support a home screen widget.
+- **Duaa Display & Customization:** Cycles through a list of prayers. Users can add new prayers which are saved locally.
+- **Digital Rosary (Misbaha):** An interactive counter with haptic feedback.
+- **Local Notifications:** Uses `UNUserNotificationCenter` to schedule background reminders.
+- **App Groups Integration:** The current Duaa and days passed are shared to support a home screen widget.
 
 ## Technical Details
 
@@ -23,7 +23,7 @@ I built this project to implement a 100% programmatic UI (no storyboards) and ha
 
 1. Clone the repository:
    ```bash
-https://github.com/wahsh311/Jamil-Alwahsh
+   git clone https://github.com/wahsh311/Jamil-Alwahsh.git
 
 
 ## Screenshots
